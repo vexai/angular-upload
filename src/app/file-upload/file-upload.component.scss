@@ -1,0 +1,25 @@
+.dropzone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 80vw;
+  font-weight: 200;
+  height: 300px;
+  border: 2px dashed #19d0f1;
+  border-radius: 20px;
+  background: white;
+  margin: 10px 0;
+
+  &.hovering {
+    border: 2px solid #f16624;
+    color: #dadada !important;
+  }
+
+}
+progress {
+  width: 100%;
+}
+progress::-webkit-progress-value {
+  transition: width 0.1s ease-in;
+}
